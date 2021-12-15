@@ -3,11 +3,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Notes.Aplication.Interfaces;
 
-namespace Notes.Presistence
+namespace Notes.Persistence
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddPersistance(this IServiceCollection service,
+        public static IServiceCollection AddPersistence(this IServiceCollection service,
             IConfiguration configuration)
         {
             var connectionString = configuration["DbConnection"];

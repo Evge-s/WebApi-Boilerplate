@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Notes.Domain;
 
-namespace Notes.Presistence.EntityTypeConfigurations
+namespace Notes.Persistence.EntityTypeConfigurations
 {
     public class NoteConfiguration : IEntityTypeConfiguration<Note>
     {

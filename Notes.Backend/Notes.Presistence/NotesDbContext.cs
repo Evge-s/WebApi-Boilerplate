@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Notes.Aplication.Interfaces;
 using Notes.Domain;
-using Notes.Presistence.EntityTypeConfigurations;
+using Notes.Persistence.EntityTypeConfigurations;
 
-namespace Notes.Presistence
+namespace Notes.Persistence
 {
     public class NotesDbContext : DbContext, INotesDbContext
     {
