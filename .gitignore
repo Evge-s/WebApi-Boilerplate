@@ -350,3 +350,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Notes.Backend/Notes.WebApi/Platinum.Notes.db-shm
+/Notes.Backend/Notes.WebApi/Platinum.Notes.db-wal
